@@ -1,0 +1,27 @@
+name: Genera YouTube Short
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 17 * * *'
+
+permissions:
+  contents: read
+
+jobs:
+  genera:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Installa strumenti gratuiti
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg espeak-ng fonts-dejavu-core python3-pil
+      - name: Genera video
+        run: python3 shorts.py
+      - name: Salva MP4 scaricabile
+        uses: actions/upload-artifact@v4
+        with:
+          name: 60-seconds-motors-short
+          path: output/
+          retention-days: 14
