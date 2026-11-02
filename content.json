@@ -1,0 +1,35 @@
+{
+  "title": "Perché un diesel fuma nero?",
+  "scenes": [
+    {
+      "title": "Quel fumo nero non è normale",
+      "text": "È un indizio: la combustione non sta lavorando come dovrebbe.",
+      "voice": "Vedi una nuvola nera uscire da un diesel quando acceleri? Non è potenza gratis: è carburante che non brucia completamente."
+    },
+    {
+      "title": "Manca aria, oppure avanza gasolio",
+      "text": "La fuliggine aumenta quando il rapporto aria-carburante è sbilanciato.",
+      "voice": "Il fumo nero è formato soprattutto da particelle di fuliggine. Spesso significa che c'è troppo combustibile rispetto all'aria disponibile."
+    },
+    {
+      "title": "Il turbo può entrarci",
+      "text": "Manicotti crepati, perdite di pressione o turbo inefficiente possono ridurre l'aria.",
+      "voice": "Un manicotto del turbo lesionato, una perdita nell'aspirazione o un problema di sovralimentazione possono far arrivare meno aria del previsto."
+    },
+    {
+      "title": "Occhio a filtro e iniezione",
+      "text": "Filtro aria ostruito, iniettori o sensori possono alterare la combustione.",
+      "voice": "Anche un filtro aria molto sporco, iniettori che nebulizzano male o sensori che leggono valori sbagliati possono contribuire al problema."
+    },
+    {
+      "title": "Non cambiare pezzi a caso",
+      "text": "Prima diagnosi: errori, valori aria, pressione turbo e aspirazione.",
+      "voice": "La cosa intelligente è fare una diagnosi: controllare errori in centralina, massa aria, pressione turbo e circuito di aspirazione. Cambiare pezzi a tentativi è il modo più veloce per buttare soldi."
+    },
+    {
+      "title": "Il fumo racconta qualcosa",
+      "text": "Un diesel sano non dovrebbe lasciare una nube nera persistente.",
+      "voice": "Una fumata occasionale non basta per condannare il motore, ma una nube nera persistente va indagata. Segui 60 Seconds Motors: qui si parla di motori, senza fuffa."
+    }
+  ]
+}
